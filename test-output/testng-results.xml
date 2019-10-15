@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17227" started-at="2019-10-15T14:18:22Z" finished-at="2019-10-15T14:18:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17227" started-at="2019-10-15T14:18:22Z" finished-at="2019-10-15T14:18:40Z">
+      <class name="com.saucelabs.automation.testscripts.Home">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.saucelabs.automation.testscripts.Home@6a41eaa2]" name="startReport" is-config="true" duration-ms="304" started-at="2019-10-15T14:18:22Z" finished-at="2019-10-15T14:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:com.saucelabs.automation.testscripts.Home@6a41eaa2]" name="baseSetup" is-config="true" duration-ms="9082" started-at="2019-10-15T14:18:22Z" finished-at="2019-10-15T14:18:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="pricingMethod()[pri:0, instance:com.saucelabs.automation.testscripts.Home@6a41eaa2]" name="pricingMethod" duration-ms="7892" started-at="2019-10-15T14:18:31Z" finished-at="2019-10-15T14:18:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pricingMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.saucelabs.automation.testscripts.Home@6a41eaa2]" name="tearDown" is-config="true" duration-ms="170" started-at="2019-10-15T14:18:39Z" finished-at="2019-10-15T14:18:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pricingMethod status=SUCCESS method=Home.pricingMethod()[pri:0, instance:com.saucelabs.automation.testscripts.Home@6a41eaa2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.saucelabs.automation.testscripts.Home@6a41eaa2]" name="endReport" is-config="true" duration-ms="1353" started-at="2019-10-15T14:18:40Z" finished-at="2019-10-15T14:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.saucelabs.automation.testscripts.Home -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
