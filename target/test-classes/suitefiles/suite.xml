@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-    <class name="class path"/>
+    <class name="com.saucelabs.automation.testscripts.Home"/>
     </classes>
   </test> <!-- Test -->
 </suite>
